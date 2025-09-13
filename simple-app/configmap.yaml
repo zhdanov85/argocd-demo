@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: simple-web-app-config
+data:
+  index.html: |
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Simple Web App</title>
+    </head>
+    <body>
+        <h1>Welcome to ArgoCD Demo</h1>
+        <p>This is a simple web application deployed using ArgoCD!</p>
+        <p>Version: 1.0</p>
+    </body>
+    </html>
