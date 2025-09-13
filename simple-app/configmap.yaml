@@ -10,8 +10,9 @@ data:
         <title>Simple Web App</title>
     </head>
     <body>
-        <h1>Welcome to ArgoCD Demo</h1>
+        <h1>Welcome to ArgoCD Demo - UPDATED!</h1>
         <p>This is a simple web application deployed using ArgoCD!</p>
-        <p>Version: 1.0</p>
+        <p>Version: 2.0 - GitOps Flow Test</p>
+        <p>Updated: $(date)</p>
     </body>
     </html>
